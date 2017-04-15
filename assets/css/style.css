@@ -222,7 +222,7 @@ header.hero {
 
 @media (min-width: 992px) {
   header.hero {
-    height: calc(100% - 65px);
+    height: 100vh;
   }
 }
 
