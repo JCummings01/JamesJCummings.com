@@ -2,6 +2,16 @@
 <head>
     <meta charset="utf-8">
 
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='https://www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+    </script>
+
     <!-- Title -->
     <title>James J Cummings</title>
 
@@ -12,6 +22,9 @@
     <!-- Google Font -->
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Ionicons -->
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel='stylesheet' type="text/css">
 
     <!-- Bootstrap Core CSS -->
     <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -42,7 +55,6 @@
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-
     <!-- START -->
     <header id="home" class="hero">
         <div class="pattern-overlay"></div>
@@ -55,11 +67,11 @@
 
                 <h1><span id="js-rotating">Software Developer | Fitness Geek | Coffee Lover </span></h1>
 
-                <p>32 year old Full-Stack Javascript Developer/Small-Business Owner/Endorphin Addict/Coffee Fanatic.</p>
+                <!-- <p>33 year old Full-Stack Javascript Developer/Small-Business Owner/Endorphin Addict/Coffee Fanatic.</p> -->
 
                 <div class="page-scroll">
-                    <a href="#profile" class="btn btn-lg btn-custom">
-                        Know Me Better
+                    <a href="#portfolio" class="">
+                        <i class="icon ion-chevron-down down-arrow"></i>
                     </a>
                 </div>
                 <!-- //.page-scroll -->
@@ -72,7 +84,7 @@
 
 
     <!-- NAVIGATION START -->
-    <nav id="navigation" class="navbar navbar-fixed-top center-menu" role="navigation">
+    <!-- <nav id="navigation" class="navbar navbar-fixed-top center-menu" role="navigation">
         <div class="container navbar-container">
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".berg-collapse">
@@ -84,7 +96,6 @@
 
                 <a class="navbar-brand visible-xs visible-sm" href="#page-top">James J Cummings</a>
             </div>
-            <!-- //.navbar-header -->
 
             <div class="navbar-collapse collapse berg-collapse">
                 <ul class="nav navbar-nav">
@@ -93,167 +104,40 @@
                     </li>
 
                     <li class="page-scroll">
-                        <a href="#profile">Profile</a>
-                    </li>
-
-                    <li class="page-scroll">
                         <a href="#portfolio">Portfolio</a>
-                    </li>
-
-                    <li class="page-scroll">
-                        <a href="#strengths">Strengths</a>
-                    </li>
-
-                    <li class="page-scroll">
-                        <a href="#resume">Resume</a>
-                    </li>
-
-                    <!-- <li class="page-scroll">
-                        <a href="#references">References</a>
-                    </li> -->
-
-                    <li class="page-scroll">
-                        <a href="#skills">Skills</a>
                     </li>
 
                     <li class="page-scroll">
                         <a href="#contact">Contact</a>
                     </li>
                 </ul>
-            </div>
+            </div> -->
             <!-- //.navbar-collapse -->
-        </div>
+        <!-- </div> -->
         <!-- //.navbar-container -->
-    </nav>
+    <!-- </nav> -->
     <!-- //NAVIGATION END -->
-
-
-    <!-- PROFILE SECTION START -->
-    <section id="profile" class="section">
-        <div class="container section-wrapper">
-            <div class="section-content">
-                <div class="row">
-                    <div class="col-md-7 match-height">
-
-                        <!-- PROFILE TEXT START -->
-                        <div class="profile-text padding-right-yes">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <h2 class="section-title uppercase">Hello, My Name is James.</h2>
-
-                                    <p>
-                                        James Cummings, 32 year old Coloradan by way of Long Island, New York, by way of Central Florida. Highly motivated Javascript developer with passion for new technologies and clean, intuitive UX design.
-                                    </p>
-
-                                    <span class="divider"></span>
-
-                                    <p class="text-grey">
-                                        I currently work as a software developer, where I get to create and design projects for some great folks and help turn their ideas into reality.
-                                    </p>
-
-                                    <p class="text-grey">
-                                        Side projects include mobile app development, IoT development, complex data visualization, and non-profit work.
-                                    </p>
-                                </div>
-                                <!-- //.col-md-12 -->
-                            </div>
-                            <!-- //.row -->
-                        </div>
-                        <!-- //PROFILE TEXT END -->
-
-                        <!-- CONTACT DETAILS START -->
-                        <div class="contact-details padding-right-yes">
-                            <div class="row">
-                                <div class="col-sm-6 col-md-5">
-                                    <h4 class="uppercase">Contact Details</h4>
-
-                                    <ul class="list-unstyled text-grey">
-                                        <li>James Cummings</li>
-                                        <li>Denver, Colorado</li>
-                                        <li>hello@jamesjcummings.com</li>
-                                        <li>www.jamesjcummings.com</li>
-                                    </ul>
-                                </div>
-                                <!-- //.col-md-5 -->
-
-                                <div class="col-sm-6 col-md-7">
-                                    <a href="mailto:hello@jamesjcummings.com" class="btn btn-lg btn-custom">
-                                        <i class="icon-File-Download"></i> Request Resume
-                                    </a>
-                                </div>
-                                <!-- //.col-md-6 -->
-                            </div>
-                            <!-- //.row -->
-                        </div>
-                        <!-- //CONTACT DETAILS END -->
-
-                    </div>
-                    <!-- //.col-md-7 -->
-
-                    <!-- PROFILE PICTURE START -->
-                    <div class="col-md-5 hidden-xs hidden-sm match-height pp-wrapper">
-                        <div class="profile-picture style-one">
-                            <img src="assets/images/portfolio/nature.jpeg" alt="profile picture" class="img-responsive"/>
-                        </div>
-                    </div>
-                    <!-- //PROFILE PICTURE END -->
-                </div>
-                <!-- //.row -->
-            </div>
-            <!-- //.section-content -->
-        </div>
-        <!-- //.container -->
-    </section>
-    <!-- //PROFILE SECTION END -->
-
 
     <!-- PORTFOLIO SECTION START -->
     <section id="portfolio" class="section">
-        <div class="container-fluid section-wrapper">
+        <div class="port-wall">
+            
+        </div>
+        <!-- <div class="container-fluid section-wrapper">
             <div class="section-content">
                 <div class="row">
                     <div class="col-md-12 text-center">
-                        <h2 class="section-title uppercase">My Latest Work</h2>
-
-                        <p class="section-subtitle">I'm looking to expand my portfolio with interesting new projects that allow me to sharpen my current skills, learn new technologies, and help out great causes + companies.</p>
-
+                        <h2 class="section-title uppercase">My Work</h2>
                         <span class="divider center"></span>
                     </div>
-                    <!-- //.col-md-12 -->
                 </div>
-                <!-- //.row -->
 
-                <!-- PORTFOLIO START -->
                 <div class="portfolio">
                     <div class="row">
                         <div class="item col-sm-6 col-md-3">
                             <div class="project-wrapper">
                                 <div class="project-link">
-                                    <a href="assets/images/portfolio/flekkcofull.jpg" class="zoom" title="Flekk Co - Style + Technology">
-                                        <i class="icon-Full-Screen"></i>
-                                    </a>
-
-                                    <a href="http://flekkco.com" target="_blank" class="external-link">
-                                        <i class="icon-Link"></i>
-                                    </a>
-                                </div>
-                                <!-- //.project-link -->
-
-                                <div class="project-title">
-                                    <h4>Flekk Co - Style+Technology</h4>
-                                </div>
-                                <!-- //.project-title -->
-
-                                <img src="assets/images/portfolio/flekkco.jpg" alt="" class="img-responsive"/>
-                            </div>
-                            <!-- //.project-wrapper -->
-                        </div>
-                        <!-- //.item -->
-
-                        <div class="item col-sm-6 col-md-3">
-                            <div class="project-wrapper">
-                                <div class="project-link">
-                                    <a href="assets/images/portfolio/wpwdfull.jpg" class="zoom" title="Wash Park Web - Your Friendly Neighborhood Development Agency">
+                                    <a href="assets/images/portfolio/wpwd1180.jpg" class="zoom" title="Wash Park Web">
                                         <i class="icon-Full-Screen"></i>
                                     </a>
 
@@ -261,47 +145,39 @@
                                         <i class="icon-Link"></i>
                                     </a>
                                 </div>
-                                <!-- //.project-link -->
 
                                 <div class="project-title">
                                     <h4>Wash Park Web</h4>
                                 </div>
-                                <!-- //.project-title -->
 
-                                <img src="assets/images/portfolio/wpwd.jpg" alt="" class="img-responsive"/>
+                                <img src="assets/images/portfolio/wpwd1180.jpg" alt="" class="img-responsive"/>
                             </div>
-                            <!-- //.project-wrapper -->
                         </div>
-                        <!-- //.item -->
 
                         <div class="item col-sm-6 col-md-3">
                             <div class="project-wrapper">
                                 <div class="project-link">
-                                    <a href="assets/images/portfolio/repfluence_768x590.png" class="zoom" title="Repfluence - Politics (minus) Bias">
+                                    <a href="assets/images/portfolio/L420R1180.png" class="zoom" title="Luxury 420 Rentals">
                                         <i class="icon-Full-Screen"></i>
                                     </a>
 
-                                    <a href="http://repfluence.herokuapp.com" target="_blank" class="external-link">
+                                    <a href="https://washparkweb.bitbucket.io/Luxury420Rentals/" target="_blank" class="external-link">
                                         <i class="icon-Link"></i>
                                     </a>
                                 </div>
-                                <!-- //.project-link -->
 
                                 <div class="project-title">
-                                    <h4>Refluence - Politics (minus) Bias</h4>
+                                    <h4>Luxury 420 Rentals</h4>
                                 </div>
-                                <!-- //.project-title -->
 
-                                <img src="assets/images/portfolio/repfluence_768x590.png" alt="" class="img-responsive"/>
+                                <img src="assets/images/portfolio/L420R1180.png" alt="" class="img-responsive"/>
                             </div>
-                            <!-- //.project-wrapper -->
                         </div>
-                        <!-- //.item -->
 
                         <div class="item col-sm-6 col-md-3">
                             <div class="project-wrapper">
                                 <div class="project-link">
-                                    <a href="assets/images/portfolio/stoikkfull.jpg" class="zoom" title="Stoikk - Stoicism Philosophy Chrome Extension">
+                                    <a href="assets/images/portfolio/stoikkfull1180.jpg" class="zoom" title="Stoikk Chrome Extension">
                                         <i class="icon-Full-Screen"></i>
                                     </a>
 
@@ -309,841 +185,123 @@
                                         <i class="icon-Link"></i>
                                     </a>
                                 </div>
-                                <!-- //.project-link -->
 
                                 <div class="project-title">
                                     <h4>Stoikk - Chrome Extension</h4>
                                 </div>
-                                <!-- //.project-title -->
 
-                                <img src="assets/images/portfolio/stoikk2.jpg" alt="" class="img-responsive"/>
+                                <img src="assets/images/portfolio/stoikkfull1180.jpg" alt="" class="img-responsive"/>
                             </div>
-                            <!-- //.project-wrapper -->
-                        <!-- </div> -->
-                        <!-- //.item -->
+                        </div>
 
+                        <div class="item col-sm-6 col-md-3">
+                            <div class="project-wrapper">
+                                <div class="project-link">
+                                    <a href="assets/images/portfolio/howl1180.png" class="zoom" title="Project H.0.W.L. Mobile App">
+                                        <i class="icon-Full-Screen"></i>
+                                    </a>
+
+                                    <a href="http://www.projecthowl.com" target="_blank" class="external-link">
+                                        <i class="icon-Link"></i>
+                                    </a>
+                                </div>
+
+                                <div class="project-title">
+                                    <h4>Project H.O.W.L. Mobile App</h4>
+                                </div>
+
+                                <img src="assets/images/portfolio/howl1180.png" alt="" class="img-responsive"/>
+                            </div>
+                        </div>
+
+                        <div class="item col-sm-6 col-md-3">
+                            <div class="project-wrapper">
+                                <div class="project-link">
+                                    <a href="assets/images/portfolio/flekkco1180.png" class="zoom" title="FlekkCo">
+                                        <i class="icon-Full-Screen"></i>
+                                    </a>
+
+                                    <a href="http://www.flekkco.com" target="_blank" class="external-link">
+                                        <i class="icon-Link"></i>
+                                    </a>
+                                </div>
+
+                                <div class="project-title">
+                                    <h4>FlekkCo - Etsy Shop</h4>
+                                </div>
+
+                                <img src="assets/images/portfolio/flekkco1180.png" alt="" class="img-responsive"/>
+                            </div>
+                        </div>
+
+                        <div class="item col-sm-6 col-md-3">
+                            <div class="project-wrapper">
+                                <div class="project-link">
+                                    <a href="assets/images/portfolio/project-image-6.jpg" class="zoom" title="The First Encounter">
+                                        <i class="icon-Full-Screen"></i>
+                                    </a>
+
+                                    <a href="https://www.behance.net/gallery/25505317/The-first-Encounter" target="_blank" class="external-link">
+                                        <i class="icon-Link"></i>
+                                    </a>
+                                </div>
+
+                                <div class="project-title">
+                                    <h4>The First Encounter</h4>
+                                </div>
+
+                                <img src="assets/images/portfolio/project-image-6.jpg" alt="" class="img-responsive"/>
+                            </div>
+                        </div>
+
+                        <div class="item col-sm-6 col-md-3">
+                            <div class="project-wrapper">
+                                <div class="project-link">
+                                    <a href="assets/images/portfolio/project-image-7.jpg" class="zoom" title="Dead Pool">
+                                        <i class="icon-Full-Screen"></i>
+                                    </a>
+
+                                    <a href="https://www.behance.net/gallery/25763797/DEADPOOL" target="_blank" class="external-link">
+                                        <i class="icon-Link"></i>
+                                    </a>
+                                </div>
+
+                                <div class="project-title">
+                                    <h4>Dead Pool</h4>
+                                </div>
+
+                                <img src="assets/images/portfolio/project-image-7.jpg" alt="" class="img-responsive"/>
+                            </div>
+                        </div>
+
+                        <div class="item col-sm-6 col-md-3">
+                            <div class="project-wrapper">
+                                <div class="project-link">
+                                    <a href="assets/images/portfolio/project-image-8.jpg" class="zoom" title="Rebus II">
+                                        <i class="icon-Full-Screen"></i>
+                                    </a>
+
+                                    <a href="https://www.behance.net/gallery/19401293/Rebus-2" target="_blank" class="external-link">
+                                        <i class="icon-Link"></i>
+                                    </a>
+                                </div>
+
+                                <div class="project-title">
+                                    <h4>Rebus II</h4>
+                                </div>
+
+                                <img src="assets/images/portfolio/project-image-8.jpg" alt="" class="img-responsive"/>
+                            </div>
+                        </div>
                     </div>
-                    <!-- //.row -->
                 </div>
-                <!-- PORTFOLIO END -->
             </div>
-            <!-- //.section-content -->
-        </div>
-        <!-- //.container-fluid -->
+        </div> -->
     </section>
     <!-- //PORTFOLIO SECTION END -->
 
-    <!-- STRENGHTS SECTION START -->
-    <section id="strengths" class="section bg-image-yes">
-        <div class="container-fluid section-wrapper">
-            <div class="section-content">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2 text-center">
-                        <h2 class="section-title uppercase">My Strengths</h2>
-
-                        <span class="divider center"></span>
-                    </div>
-                    <!-- //.col-md-8 -->
-                </div>
-                <!-- //.row -->
-
-                <div class="row">
-                    <div class="col-md-12">
-
-                        <!-- COLUMN CHART START -->
-                        <div class="column-chart">
-                            <div class="legend legend-left hidden-xs">
-                                <h3 class="legend-title">ME</h3>
-                            </div>
-                            <!-- //.legend -->
-
-                            <div class="legend legend-right hidden-xs">
-                                <div class="item">
-                                    <h4>Superhero</h4>
-                                </div>
-                                <!-- //.item -->
-
-                                <div class="item">
-                                    <h4>Pretty Good</h4>
-                                </div>
-                                <!-- //.item -->
-
-                                <div class="item">
-                                    <h4>Good</h4>
-                                </div>
-                                <!-- //.item -->
-
-                                <div class="item">
-                                    <h4>Newbie</h4>
-                                </div>
-                                <!-- //.item -->
-                            </div>
-                            <!-- //.legend -->
-
-                            <div class="chart clearfix">
-                                <div class="item">
-                                    <div class="bar">
-                                        <span class="percent">Angular</span>
-
-                                        <div class="item-progress" data-percent="83">
-                                            <span class="title uppercase">Front-End Development</span>
-                                        </div>
-                                        <!-- //.item-progress -->
-                                    </div>
-                                    <!-- //.bar -->
-                                </div>
-                                <!-- //.item -->
-
-                                <div class="item">
-                                    <div class="bar">
-                                        <span class="percent">Mobile</span>
-
-                                        <div class="item-progress" data-percent="80">
-                                            <span class="title uppercase">Responsive Design</span>
-                                        </div>
-                                        <!-- //.item-progress -->
-                                    </div>
-                                    <!-- //.bar -->
-                                </div>
-                                <!-- //.item -->
-
-                                <div class="item">
-                                    <div class="bar">
-                                        <span class="percent">NoSQL</span>
-
-                                        <div class="item-progress" data-percent="68">
-                                            <span class="title uppercase">Database Architecture</span>
-                                        </div>
-                                        <!-- //.item-progress -->
-                                    </div>
-                                    <!-- //.bar -->
-                                </div>
-                                <!-- //.item -->
-
-                                <div class="item">
-                                    <div class="bar">
-                                        <span class="percent">NodeJS</span>
-
-                                        <div class="item-progress" data-percent="77">
-                                            <span class="title uppercase">Back-End Development</span>
-                                        </div>
-                                        <!-- //.item-progress -->
-                                    </div>
-                                    <!-- //.bar -->
-                                </div>
-                                <!-- //.item -->
-
-                                <div class="item">
-                                    <div class="bar">
-                                        <span class="percent">SEO/UI</span>
-
-                                        <div class="item-progress" data-percent="75">
-                                            <span class="title uppercase">Optimization</span>
-                                        </div>
-                                        <!-- //.item-progress -->
-                                    </div>
-                                    <!-- //.bar -->
-                                </div>
-                                <!-- //.item -->
-                            </div>
-                            <!-- //.chart -->
-                        </div>
-                        <!-- //COLUMN CHART END -->
-
-                    </div>
-                    <!-- //.col-md-12 -->
-                </div>
-                <!-- //.row -->
-            </div>
-            <!-- //.section-content -->
-        </div>
-        <!-- //.container -->
-    </section>
-    <!-- //STRENGHTS SECTION END -->
-
-
-    <!-- RESUME SECTION START -->
-    <section id="resume" class="section">
-        <div class="container section-wrapper">
-            <div class="section-content">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2 text-center">
-                        <h2 class="section-title uppercase">My Resume</h2>
-
-                        <p class="section-subtitle">
-
-                        </p>
-
-                        <span class="divider center"></span>
-                    </div>
-                    <!-- //.col-md-8 -->
-                </div>
-                <!-- //.row -->
-
-                <!-- EDUCATION START -->
-                <div class="row education">
-                    <div class="col-md-10 col-md-offset-1">
-                        <h3>
-                            My Education
-                            <br>
-                            2001 - 2015
-                        </h3>
-
-                        <div class="panel-group resume" id="education">
-                            <div class="resume-item">
-                                <div class="resume-year">
-                                    <span class="resume-year">2015</span>
-                                </div>
-                                <!-- //.resume-year -->
-
-                                <div class="resume-btn">
-                                    <a href="#education1" data-toggle="collapse" data-parent="#education"></a>
-                                </div>
-                                <!-- //.resume-btn -->
-
-                                <div class="panel">
-                                    <div class="panel-heading">
-                                        <div class="panel-title">
-                                            <h4 class="resume-title">Full Stack Javascript Development - RefactorU</h4>
-                                        </div>
-                                        <!-- //.panel-title -->
-                                    </div>
-                                    <!-- //.panel-heading -->
-
-                                    <div id="education1" class="panel-collapse collapse in">
-                                        <div class="panel-body text-grey">
-                                            <p>
-                                                Full stack development program that teaches modern full-stack Javascript development involving greater than 300+ hours of coding real world applications. Technologies include Javascript, jQuery, Express, Angular, Node, Jade, MongoDB, Bootstrap, and Git.
-                                            </p>
-                                        </div>
-                                        <!-- //.panel-body -->
-                                    </div>
-                                    <!-- //.panel-collapse -->
-                                </div>
-                                <!-- //.panel -->
-                            </div>
-                            <!-- //.resume-item -->
-
-                            <div class="resume-item">
-                                <div class="resume-year">
-                                    <span class="resume-year">2001 - 2005</span>
-                                </div>
-                                <!-- //.resume-year -->
-
-                                <div class="resume-btn">
-                                    <a href="#education2" class="collapsed" data-toggle="collapse" data-parent="#education"></a>
-                                </div>
-                                <!-- //.resume-btn -->
-
-                                <div class="panel">
-                                    <div class="panel-heading">
-                                        <div class="panel-title">
-                                            <h4 class="resume-title">Bachelors of Finance - University of Tampa</h4>
-                                        </div>
-                                        <!-- //.panel-title -->
-                                    </div>
-                                    <!-- //.panel-heading -->
-
-                                    <div id="education2" class="panel-collapse collapse">
-                                        <div class="panel-body text-grey">
-                                            <p>
-                                                Earned a Bachelors of Science in Finance from the John H. Sykes College of Business at the University of Tampa.
-                                            </p>
-                                        </div>
-                                        <!-- //.panel-body -->
-                                    </div>
-                                    <!-- //.panel-collapse -->
-                                </div>
-                                <!-- //.panel -->
-                            </div>
-                            <!-- //.resume-item -->
-
-                        </div>
-                        <!-- //.panel-group -->
-                    </div>
-                    <!-- //.col-md-10 -->
-                </div>
-                <!-- //EDUCATION END -->
-
-                <!-- WORK EXPERIENCE START -->
-                <div class="row work-experience">
-                    <div class="col-md-10 col-md-offset-1">
-                        <h3>
-                            Work Experience
-                            <br>
-                            2005 - Now
-                        </h3>
-
-                        <div class="panel-group resume" id="work">
-                            <div class="resume-item">
-                                <div class="resume-year">
-                                    <span class="resume-year">2016 - Now</span>
-                                </div>
-                                <!-- //.resume-year -->
-
-                                <div class="resume-btn">
-                                    <a href="#work1" data-toggle="collapse" data-parent="#work"></a>
-                                </div>
-                                <!-- //.resume-btn -->
-
-                                <div class="panel">
-                                    <div class="panel-heading">
-                                        <div class="panel-title">
-                                            <h4 class="resume-title">Developer - Factory Design Labs</h4>
-                                        </div>
-                                        <!-- //.panel-title -->
-                                    </div>
-                                    <!-- //.panel-heading -->
-
-                                    <div id="work1" class="panel-collapse collapse in">
-                                        <div class="panel-body text-grey">
-                                            <p>
-                                                Responsibilities:
-                                                <br>
-                                                - Build content-rich web applications and sites for clients web, mobile, and brand campaigns utilizing Javascript, jQuery, HTML5, CSS/Sass, Postgres, and Ruby on Rails.<br />
-                                                - Primary projects were for Four Winds Interactive, Punch Bowl Social, Kettle Chips, and Freebird by Steve Madden. Other projects included HTML email marketing(Pardot & Mailchimp templates), Shopify templates(Liquid markup language), Squarespace templates(JSON/JSON-T).
-                                            </p>
-                                        </div>
-                                        <!-- //.panel-body -->
-                                    </div>
-                                    <!-- //.panel-collapse -->
-                                </div>
-                                <!-- //.panel -->
-                            </div>
-                            <!-- //.resume-item -->
-                            <div class="resume-item">
-                                <div class="resume-year">
-                                    <span class="resume-year">2015 - 2016</span>
-                                </div>
-                                <!-- //.resume-year -->
-
-                                <div class="resume-btn">
-                                    <a href="#work2" data-toggle="collapse" data-parent="#work"></a>
-                                </div>
-                                <!-- //.resume-btn -->
-
-                                <div class="panel">
-                                    <div class="panel-heading">
-                                        <div class="panel-title">
-                                            <h4 class="resume-title">Software Engineer - Latitude 40 Consulting</h4>
-                                        </div>
-                                        <!-- //.panel-title -->
-                                    </div>
-                                    <!-- //.panel-heading -->
-
-                                    <div id="work2" class="panel-collapse collapse in">
-                                        <div class="panel-body text-grey">
-                                            <p>
-                                                Responsibilities:
-                                                <br>
-                                                - Consult, design, and develop applications for web, mobile, and desktops utilizing MEAN Stack Javascript(Bootstrap, Angular Material, jQuery, MongoDB, Angular JS, Express JS, Node JS), cloud databases(Parse DB, Firebase DB/BE) and hybrid mobile and desktop frameworks(Ionic, Cordova, Electron).<br />
-                                                - Manage client relationships with a focus on communication(phone, email, Skype,
-                                                 in-person meetings), timely deliverables, and exceeding expectations.<br />
-                                                - Develop and design app UI/UX methodology based on a responsive ‘mobile-first’ philosophy, utilizing Bootstrap grid system and components, Material Design components/guidelines, HTML5 API’s, CSS, Angular, Ionic, and Electron frameworks.<br />
-                                                <br />Technical project experience includes:<br />
-                                                - Product downloader application for a high-end audio software company(hybrid desktop app built with Electron, AngularJS, NodeJS, Bootstrap)<br />
-                                                - Sports team management application(mobile app built with Ionic, Firebase)<br />
-                                                - Social streaming video application(built with Ionic, OpenTok, MongoDB)<br />
-                                                - Web application for fitness professionals(Angular, Parse DB, Bootstrap)
-                                            </p>
-                                        </div>
-                                        <!-- //.panel-body -->
-                                    </div>
-                                    <!-- //.panel-collapse -->
-                                </div>
-                                <!-- //.panel -->
-                            </div>
-                            <!-- //.resume-item -->
-
-                            <div class="resume-item">
-                                <div class="resume-year">
-                                    <span class="resume-year">2015 - now</span>
-                                </div>
-                                <!-- //.resume-year -->
-
-                                <div class="resume-btn">
-                                    <a href="#work3" class="collapsed" data-toggle="collapse" data-parent="#work"></a>
-                                </div>
-                                <!-- //.resume-btn -->
-
-                                <div class="panel">
-                                    <div class="panel-heading">
-                                        <div class="panel-title">
-                                            <h4 class="resume-title">Freelance Javascript Developer</h4>
-                                        </div>
-                                        <!-- //.panel-title -->
-                                    </div>
-                                    <!-- //.panel-heading -->
-
-                                    <div id="work3" class="panel-collapse collapse">
-                                        <div class="panel-body text-grey">
-                                            <p>
-                                                Responsibilities:
-                                                <br>
-                                                - Design and develop Javascript software for web, mobile, and desktop applications. Small business website and business development. Branding and visual design advice.
-                                            </p>
-                                        </div>
-                                        <!-- //.panel-body -->
-                                    </div>
-                                    <!-- //.panel-collapse -->
-                                </div>
-                                <!-- //.panel -->
-                            </div>
-                            <!-- //.resume-item -->
-
-                            <div class="resume-item">
-                                <div class="resume-year">
-                                    <span class="resume-year">2014 - 2015</span>
-                                </div>
-                                <!-- //.resume-year -->
-
-                                <div class="resume-btn">
-                                    <a href="#work4" class="collapsed" data-toggle="collapse" data-parent="#work"></a>
-                                </div>
-                                <!-- //.resume-btn -->
-
-                                <div class="panel">
-                                    <div class="panel-heading">
-                                        <div class="panel-title">
-                                            <h4 class="resume-title">Financial Controls Manager - Gates Corporation</h4>
-                                        </div>
-                                        <!-- //.panel-title -->
-                                    </div>
-                                    <!-- //.panel-heading -->
-
-                                    <div id="work4" class="panel-collapse collapse">
-                                        <div class="panel-body text-grey">
-                                            <p>
-                                                Responsibilities:
-                                                <br>
-                                                - Project manager for yearly financial control program for business units in the United States, Canada, Mexico, and South America. <br /> - Provided technical oversight, guidance, and coordination to business units as those units embedded, documented, updated, and tested financial controls. <br /> - Provided oversight to finance operations professionals on internal control structure, process change initiatives, best practices, compliance with mandate for fundamental financial controls, SOX certifications, and business risk mapping and assessment both remotely and on-site.
-                                            </p>
-                                        </div>
-                                        <!-- //.panel-body -->
-                                    </div>
-                                    <!-- //.panel-collapse -->
-                                </div>
-                                <!-- //.panel -->
-                            </div>
-                            <!-- //.resume-item -->
-
-                            <div class="resume-item">
-                                <div class="resume-year">
-                                    <span class="resume-year">2007 - 2014</span>
-                                </div>
-                                <!-- //.resume-year -->
-
-                                <div class="resume-btn">
-                                    <a href="#work5" class="collapsed" data-toggle="collapse" data-parent="#work"></a>
-                                </div>
-                                <!-- //.resume-btn -->
-
-                                <div class="panel">
-                                    <div class="panel-heading">
-                                        <div class="panel-title">
-                                            <h4 class="resume-title">Senior Finance Analyst - First Data Corporation</h4>
-                                        </div>
-                                        <!-- //.panel-title -->
-                                    </div>
-                                    <!-- //.panel-heading -->
-
-                                    <div id="work5" class="panel-collapse collapse">
-                                        <div class="panel-body text-grey">
-                                            <p>
-                                                Responsibilities:
-                                                <br>
-                                                - Designed and implemented yearly financial control program for North American business unit of First Data Corporation. <br /> - Financial reporting analysis, process improvement, risk analysis and mitigation, and project management.
-                                            </p>
-                                        </div>
-                                        <!-- //.panel-body -->
-                                    </div>
-                                    <!-- //.panel-collapse -->
-                                </div>
-                                <!-- //.panel -->
-                            </div>
-                            <!-- //.resume-item -->
-
-                            <div class="resume-item">
-                                <div class="resume-year">
-                                    <span class="resume-year">2005 - 2007</span>
-                                </div>
-                                <!-- //.resume-year -->
-
-                                <div class="resume-btn">
-                                    <a href="#work7" class="collapsed" data-toggle="collapse" data-parent="#work"></a>
-                                </div>
-                                <!-- //.resume-btn -->
-
-                                <div class="panel">
-                                    <div class="panel-heading">
-                                        <div class="panel-title">
-                                            <h4 class="resume-title">Forensic Analyst - PricewaterhouseCoopers</h4>
-                                        </div>
-                                        <!-- //.panel-title -->
-                                    </div>
-                                    <!-- //.panel-heading -->
-
-                                    <div id="work7" class="panel-collapse collapse">
-                                        <div class="panel-body text-grey">
-                                            <p>
-                                                Responsibilities:
-                                                <br>
-                                                - Special Projects Team Analyst. Troubleshoot and develop solutions for company's global financial system.
-                                            </p>
-                                        </div>
-                                        <!-- //.panel-body -->
-                                    </div>
-                                    <!-- //.panel-collapse -->
-                                </div>
-                                <!-- //.panel -->
-                            </div>
-                            <!-- //.resume-item -->
-                        </div>
-                        <!-- //.panel-group -->
-                    </div>
-                    <!-- //.col-md-10 -->
-                </div>
-                <!-- //WORK EXPERIENCE END -->
-            </div>
-            <!-- //.section-content -->
-        </div>
-        <!-- //.container -->
-    </section>
-    <!-- //RESUME SECTION END -->
-
-    <!-- SKILLS SECTION START -->
-    <section id="skills" class="section">
-        <div class="container section-wrapper">
-            <div class="section-content">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2 text-center">
-                        <h2 class="section-title uppercase">Skills & Expertise</h2>
-
-                        <p class="section-subtitle"> </p>
-
-                        <span class="divider center"></span>
-                    </div>
-                    <!-- //.col-md-8 -->
-                </div>
-                <!-- //.row -->
-
-                <!-- CIRCLE CHART START -->
-                <div class="circle-chart">
-                    <div class="row">
-                        <div class="col-sm-4 col-md-2">
-                            <div class="item">
-                                <div class="circle">
-                                    <span class="item-progress" data-percent="65"></span>
-                                </div>
-                                <!-- //.circle -->
-
-                                <span class="percent">65%</span>
-
-                                <h4 class="text-center uppercase">MongoDB</h4>
-                            </div>
-                            <!-- //.item -->
-                        </div>
-                        <!-- //.col-md-2 -->
-
-                        <div class="col-sm-4 col-md-2">
-                            <div class="item">
-                                <div class="circle">
-                                    <span class="item-progress" data-percent="70"></span>
-                                </div>
-                                <!-- //.circle -->
-
-                                <span class="percent">70%</span>
-
-                                <h4 class="text-center uppercase">Express JS</h4>
-                            </div>
-                            <!-- //.item -->
-                        </div>
-                        <!-- //.col-md-2 -->
-
-                        <div class="col-sm-4 col-md-2">
-                            <div class="item">
-                                <div class="circle">
-                                    <span class="item-progress" data-percent="80"></span>
-                                </div>
-                                <!-- //.circle -->
-
-                                <span class="percent">80%</span>
-
-                                <h4 class="text-center uppercase">Angular JS</h4>
-                            </div>
-                            <!-- //.item -->
-                        </div>
-                        <!-- //.col-md-2 -->
-
-                        <div class="col-sm-4 col-md-2">
-                            <div class="item">
-                                <div class="circle">
-                                    <span class="item-progress" data-percent="70"></span>
-                                </div>
-                                <!-- //.circle -->
-
-                                <span class="percent">70%</span>
-
-                                <h4 class="text-center uppercase">Node JS</h4>
-                            </div>
-                            <!-- //.item -->
-                        </div>
-                        <!-- //.col-md-2 -->
-
-                        <div class="col-sm-4 col-md-2">
-                            <div class="item">
-                                <div class="circle">
-                                    <span class="item-progress" data-percent="85"></span>
-                                </div>
-                                <!-- //.circle -->
-
-                                <span class="percent">85%</span>
-
-                                <h4 class="text-center uppercase">HTML5 + CSS3</h4>
-                            </div>
-                            <!-- //.item -->
-                        </div>
-                        <!-- //.col-md-2 -->
-
-                        <div class="col-sm-4 col-md-2">
-                            <div class="item last">
-                                <div class="circle">
-                                    <span class="item-progress" data-percent="60"></span>
-                                </div>
-                                <!-- //.circle -->
-
-                                <span class="percent">60%</span>
-
-                                <h4 class="text-center uppercase">Wordpress + Plugins</h4>
-                            </div>
-                            <!-- //.item -->
-                        </div>
-                        <!-- //.col-md-2 -->
-                    </div>
-                    <!-- //.row -->
-                </div>
-                <!-- //CIRCLE CHART END -->
-            </div>
-            <!-- //.section-content -->
-        </div>
-        <!-- //.container -->
-    </section>
-    <!-- //SKILLS SECTION END -->
-
-    <!-- MILESTONES SECTION START -->
-    <section id="milestones" class="section bg-image-yes">
-        <div class="container-fluid section-wrapper">
-            <div class="section-content">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2 text-center">
-                        <h2 class="section-title uppercase">Development Milestones Achieved</h2>
-
-                        <p class="section-subtitle"> </p>
-
-                        <span class="divider center"></span>
-                    </div>
-                    <!-- //.col-md-8 -->
-                </div>
-                <!-- //.row -->
-
-                <!-- MILESTONES START -->
-                <div class="milestones">
-                    <div class="row">
-                        <div class="col-sm-6 col-md-3 item">
-                            <div class="circle">
-                                <i class="icon-Coffee"></i>
-                            </div>
-                            <!-- //.circle -->
-
-                            <span class="number" data-from="1" data-to="794" data-refresh-interval="100">
-                                10
-                            </span>
-
-                            <h4>Cups of Coffee</h4>
-                        </div>
-                        <!-- //.item -->
-
-                        <div class="col-sm-6 col-md-3 item">
-                            <div class="circle">
-                                <i class="icon-Clock"></i>
-                            </div>
-                            <!-- //.circle -->
-
-                            <span class="number" data-from="1" data-to="1598" data-refresh-interval="5">
-                                10
-                            </span>
-
-                            <h4>Hours Worked</h4>
-                        </div>
-                        <!-- //.item -->
-
-                        <div class="col-sm-6 col-md-3 item">
-                            <div class="circle">
-                                <i class="icon-Coding"></i>
-                            </div>
-                            <!-- //.circle -->
-
-                            <span class="number" data-from="0" data-to="12" data-refresh-interval="10">
-                                12
-                            </span>
-
-                            <h4>Successful Projects</h4>
-                        </div>
-                        <!-- //.item -->
-
-                        <div class="col-sm-6 col-md-3 item">
-                            <div class="circle">
-                                <i class="icon-Smile"></i>
-                            </div>
-                            <!-- //.circle -->
-
-                            <span class="number" data-from="0" data-to="12" data-refresh-interval="5">
-                                12
-                            </span>
-
-                            <h4>Happy Clients</h4>
-                        </div>
-                        <!-- //.item -->
-                    </div>
-                    <!-- //.row -->
-                </div>
-                <!-- //MILESTONES END -->
-            </div>
-            <!-- //.section-content -->
-        </div>
-        <!-- //.container -->
-    </section>
-    <!-- //MILESTONES SECTION END -->
-
-
-    <!-- WORK PROCESS SECTION START -->
-    <section id="work-process" class="section">
-        <div class="container section-wrapper">
-            <div class="section-content">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <h2 class="section-title uppercase">Work Process</h2>
-
-                        <p class="section-subtitle">
-                            <!-- As a human being, I'm work in process. -->
-                        </p>
-
-                        <span class="divider center"></span>
-                    </div>
-                    <!-- //.col-md-12 -->
-                </div>
-                <!-- //.row -->
-
-                <div class="row">
-                    <div class="col-md-12">
-                        <p class="text-grey text-justify">
-                            <!-- Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. -->
-                        </p>
-                    </div>
-                    <!-- //.col-md-12 -->
-                </div>
-                <!-- //.row -->
-
-                <!-- WORK PROCESS START -->
-                <div class="work-process">
-                    <div class="row">
-                        <div class="col-sm-2 col-md-2 item no-margin first">
-                            <div class="inner-content">
-                                <i class="icon-Light-Bulb2"></i>
-
-                                <span class="title">1. Idea</span>
-
-                                <span class="dot"></span>
-                            </div>
-                            <!-- //.inner-content -->
-
-                            <i class="icon-Arrow icon-Down-3"></i>
-                        </div>
-                        <!-- //.item -->
-
-                        <div class="col-sm-2 col-md-2 item">
-                            <div class="inner-content">
-                                <i class="icon-Pencil"></i>
-
-                                <span class="title">2. Sketch</span>
-                            </div>
-                            <!-- //.inner-content -->
-
-                            <i class="icon-Arrow icon-Up-3"></i>
-                        </div>
-                        <!-- //.item -->
-
-                        <div class="col-sm-2 col-md-2 item no-margin">
-                            <div class="inner-content">
-                                <i class="icon-Monitor-2"></i>
-
-                                <span class="title">3. Design</span>
-                            </div>
-                            <!-- //.inner-content -->
-
-                            <i class="icon-Arrow icon-Down-3"></i>
-                        </div>
-                        <!-- //.item -->
-
-                        <div class="col-sm-2 col-md-2 item">
-                            <div class="inner-content">
-                                <i class="icon-Coding"></i>
-
-                                <span class="title">4. Develop</span>
-                            </div>
-                            <!-- //.inner-content -->
-
-                            <i class="icon-Arrow icon-Up-3"></i>
-                        </div>
-                        <!-- //.item -->
-
-                        <div class="col-sm-2 col-md-2 item no-margin">
-                            <div class="inner-content">
-                                <i class="icon-Bug"></i>
-
-                                <span class="title">5. Test</span>
-                            </div>
-                            <!-- //.inner-content -->
-
-                            <i class="icon-Arrow icon-Down-3"></i>
-                        </div>
-                        <!-- //.item -->
-
-                        <div class="col-sm-2 col-md-2 item last">
-                            <div class="inner-content">
-                                <i class="icon-Rocket"></i>
-
-                                <span class="title">6. Launch</span>
-
-                                <span class="dot"></span>
-                            </div>
-                            <!-- //.inner-content -->
-                        </div>
-                        <!-- //.item -->
-                    </div>
-                    <!-- //.row -->
-                </div>
-                <!-- //WORK PROCESS END -->
-
-                <div class="row">
-                    <div class="col-md-12">
-                        <p class="text-grey text-justify">
-                            <!-- Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. -->
-                        </p>
-                    </div>
-                    <!-- //.col-md-12 -->
-                </div>
-                <!-- //.row -->
-            </div>
-            <!-- //.section-content -->
-        </div>
-        <!-- //.container -->
-    </section>
-    <!-- //WORK PROCESS SECTION END -->
-
-
     <!-- CONTACT SECTION START -->
-    <section id="contact" class="section">
+    <!-- <section id="contact" class="section">
         <div class="container section-wrapper">
             <div class="section-content">
                 <div class="row">
@@ -1156,15 +314,13 @@
 
                         <span class="divider center"></span>
                     </div>
-                    <!-- //.col-md-12 -->
                 </div>
-                <!-- //.row -->
 
                 <div class="row">
                     <div class="col-md-12">
 
                         <!-- CONTACT DETAILS START -->
-                        <div class="contact-details text-center">
+                        <!-- <div class="contact-details text-center">
                             <div class="speech-bubble">
                                 <i class="icon-Speach-Bubble11"></i>
 
@@ -1172,7 +328,6 @@
                                     Say<br>Hello
                                 </h4>
                             </div>
-                            <!-- //.speech-bubble -->
 
                             <h2 class="uppercase">James <strong>Cummings</strong></h2>
 
@@ -1180,28 +335,20 @@
 
                             <span class="divider center"></span>
                         </div>
-                        <!-- //CONTACT DETAILS END -->
                     </div>
-                    <!-- //.col-md-12 -->
                 </div>
-                <!-- //.row -->
             </div>
-            <!-- //.section-content -->
         </div>
-        <!-- //.container -->
-    </section>
-    <!-- //CONTACT SECTION END -->
+    </section> -->
 
 
-    <!-- FOOTER START -->
-    <footer class="footer">
+    <!-- <footer class="footer">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="page-scroll">
                         <a href="#home"><i class="icon-Arrow-Up"></i></a>
                     </div>
-                    <!-- //.page-scroll -->
 
                     <ul class="list-inline social-icons">
                         <li>
@@ -1210,7 +357,6 @@
                                     <img src="assets/img/social-icons/Facebook-2_24px.png" alt="facebook" class="img-responsive"/>
                                 </a>
                             </div>
-                            <!-- //.item -->
                         </li>
 
                         <li>
@@ -1219,7 +365,6 @@
                                     <img src="assets/img/social-icons/Twitter-2_24px.png" alt="twitter" class="img-responsive"/>
                                 </a>
                             </div>
-                            <!-- //.item -->
                         </li>
 
                         <li>
@@ -1228,28 +373,20 @@
                                     <img src="assets/img/social-icons/Linkedin-2_24px.png" alt="linkedin" class="img-responsive"/>
                                 </a>
                             </div>
-                            <!-- //.item -->
                         </li>
                     </ul>
                 </div>
-                <!-- //.col-md-12 -->
             </div>
-            <!-- //.row -->
 
             <div class="row">
                 <div class="col-md-12">
                     <div class="copyright text-center">
-                        <p class="text-grey">&copy; 2015 James J Cummings. All rights reserved.</p>
+                        <p class="text-grey">&copy; 2017 James J Cummings. All rights reserved.</p>
                     </div>
-                    <!-- //.copyright -->
                 </div>
-                <!-- //.col-md-12 -->
             </div>
-            <!-- //.row -->
         </div>
-        <!-- //.container -->
-    </footer>
-    <!-- //FOOTER END -->
+    </footer> -->
 
     <!-- Plugins JS -->
     <script src="assets/plugins/jquery.min.js"></script>
